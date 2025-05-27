@@ -7,6 +7,7 @@ interface GreenMileWidgetProps {
     productPrice: number;
     discountedPrice: number;
     variantId: string;
+    handleCheckout: (variantId: string, quantity: number, countryCode: string) => Promise<void>;
     currency?: string;
     backendUrl?: string;
     storeUrl?: string;
