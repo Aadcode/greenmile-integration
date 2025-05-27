@@ -1,6 +1,6 @@
 {
   "name": "greenmile-medusa-integration",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A comprehensive package for integrating GreenMile functionality into Medusa storefronts",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
